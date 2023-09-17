@@ -1,0 +1,2 @@
+abot_model:color_pkg:face_pkg:track_tag:tracker_pkg
+-DCATKIN_DEVEL_PREFIX=/home/abot/abot_vision/devel -DCMAKE_INSTALL_PREFIX=/home/abot/abot_vision/install -G Unix Makefiles

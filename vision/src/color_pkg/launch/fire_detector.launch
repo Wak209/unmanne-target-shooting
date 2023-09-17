@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch" />
+  <node name="detect_fire" type="fire_detector.py" pkg="color_pkg" output="screen">
+    <param name="tts_topic" type="String" value="/robot_voice/tts_topic"/>
+  </node>
+</launch>

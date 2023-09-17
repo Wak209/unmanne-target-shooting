@@ -1,0 +1,8 @@
+prefix=/home/abot/abot_vision/install
+
+Name: abot_camera
+Description: Description of abot_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
